@@ -14,7 +14,7 @@ The `data/` folder contains the preprocessed inputs for the analysis:
 - `aemet_2024_annual_precip_points_sf.rds` — annual accumulated
   precipitation per station (690 stations).
 - `aemet_2024_missing_by_station_month.rds` — number of missing days
-  per station and month, used in the exploratory and sensitivity analyses.
+  per station and month, used in the exploratory analysis.
 
 The analysis reads directly from these files, so the download step is
 not required to reproduce the results.
