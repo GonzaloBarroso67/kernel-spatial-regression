@@ -44,8 +44,8 @@ is not needed to reproduce the analysis (the data is already provided in
   data from the AEMET OpenData API (documentary; requires a personal API key).
 - `01_exploratory_analysis.R` — Describes the dataset and explores the
   response on the original and log scales (spatial and univariate plots,
-  summaries by province, nearest-neighbour distances, and a missing-day
-  diagnostic supporting the rescaling assumption).
+  summaries by province, and a missing-day diagnostic supporting the
+  rescaling assumption).
 - `02_parametric_preview_and_diagnostics.R` — Fits an exploratory linear
   trend on the log scale and diagnoses the spatial dependence in the
   residuals (empirical and directional variograms, independence test),
