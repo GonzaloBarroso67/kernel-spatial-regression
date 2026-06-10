@@ -39,6 +39,10 @@ On Windows, installing `npsp` may require Rtools.
 Script `00` documents how the data was obtained from the AEMET API and
 is not needed to reproduce the analysis (the data is already provided in
 `data/`). The analysis starts from script `01`.
+Before running, set the working directory to the repository root. The
+easiest way is to open the `code.Rproj` file as a project in RStudio,
+which sets it automatically. All paths in the scripts are relative to
+that root.
 
 - `00_download_AEMET_data.R` — Downloads the 2024 daily precipitation
   data from the AEMET OpenData API (documentary; requires a personal API key).
