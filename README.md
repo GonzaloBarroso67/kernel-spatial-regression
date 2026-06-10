@@ -64,3 +64,12 @@ is not needed to reproduce the analysis (the data is already provided in
   estimates have converged.
 - `06_sensitivity_analysis.R` — Sensitivity analysis under two checks: a
   stricter missing-day filter and changes to the binning grid (30×30 and 20×20).
+
+
+  ## Academic context
+
+This project was developed as part of the Bachelor's Degree in
+Mathematics and Computing at Universidad Carlos III de Madrid.
+
+- **Author:** Gonzalo Barroso
+- **Thesis title:** Kernel-based regression estimation for spatial data
