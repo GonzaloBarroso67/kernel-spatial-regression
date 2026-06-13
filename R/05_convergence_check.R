@@ -162,7 +162,7 @@ h_by_iter[["h2"]] <- list(
 cat("\n--- Iteration 2 (starting point, from script 04) ---\n")
 print(summarise_bandwidths(h_by_iter[["h2"]]))
 
-for (step in 2:5) {
+for (step in 3:5) {
   prev    <- h_by_iter[[paste0("h", step - 1)]]
   current <- list()
   for (k in names(crit_settings)) {
