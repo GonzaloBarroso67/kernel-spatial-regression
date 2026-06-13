@@ -69,7 +69,17 @@ that root.
 - `06_sensitivity_analysis.R` — Sensitivity analysis under two checks: a
   stricter missing-day filter and changes to the binning grid (30×30 and 20×20).
 
+The scripts in `R/figures/` are independent of the pipeline above. They
+reproduce the illustrative figures used in the theoretical chapters, and
+each one writes its PDF to the `figures/` folder at the repository root.
 
+- `covariogram.R` — Illustrates the relationship between the variogram
+  and the covariogram.
+- `bandwidth_effect.R` — Illustrates the effect of the bandwidth on
+  the local linear estimator.
+- `variogram_models.R` — Illustrates the standard parametric variogram
+  models (spherical, exponential, Gaussian, and Matérn).
+  
   ## Academic context
 
 This project was developed as part of the Bachelor's Degree in
