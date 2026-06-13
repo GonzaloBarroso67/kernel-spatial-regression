@@ -1,5 +1,5 @@
 # =========================================================
-# bandwidth_selection.R
+# bandwidth_effect.R
 # Figure: local linear estimator for three bandwidths
 # Packages: base R only
 # =========================================================
