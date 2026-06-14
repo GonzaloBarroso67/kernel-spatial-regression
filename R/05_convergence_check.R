@@ -183,7 +183,7 @@ for (step in 3:5) {
 # visual counterpart of its non-convergence. Delete this block if only
 # the bandwidth tables are needed.
 
-h5 <- h_by_iter[["h16"]]
+h5 <- h_by_iter[["h5"]]
 
 bin_data_fine <- npsp::binning(
   x = coords_np,
